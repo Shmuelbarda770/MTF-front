@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from "./pages/home";
 import Users from "./pages/Users";
 import Login from "./pages/Login";
 import Otp from './pages/Otp';
@@ -13,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<h1>place holder for / page</h1>} />
-          <Route path="/About" element={<h1>tihs is About page</h1>} />
+          <Route path="/About" element={<h1>this is About page</h1>} />
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<h1>place holder for testing page</h1>} />
           <Route path="/login/otp" element={<Otp />} />
